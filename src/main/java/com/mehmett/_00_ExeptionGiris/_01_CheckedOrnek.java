@@ -1,11 +1,13 @@
 package com.mehmett._00_ExeptionGiris;
 
+
 import java.io.FileInputStream;
 
 public class _01_CheckedOrnek {
 	public static void main(String[] args) {
 		FileInputStream fis = null;
 		
+
 		try {
 			fis=new FileInputStream("C:/javaFiles/Hello3.txt"); //Unhandled exception: java.io.FileNotFoundException
 		}
@@ -27,8 +29,8 @@ public class _01_CheckedOrnek {
 		catch (InterruptedException e) {
 			System.out.println("catch InterruptedExceptiona düştük...");
 			e.printStackTrace();
-			
-			
+
+
 		}
 		
 		System.out.println("Program hata olsa da çalışmaya devam ediyor.");

@@ -17,8 +17,5 @@ public class Personel {
 		this.surname = surname;
 	}
 	
-	@Override
-	public String toString() {
-		return "Personel{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + '}';
-	}
+	
 }

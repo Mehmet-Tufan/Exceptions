@@ -8,7 +8,7 @@ public class _04_ExeptionOrnekler {
 			boyInteger = Integer.parseInt(boy);
 		}
 		catch (NumberFormatException e) {
-//			e.printStackTrace();
+			e.printStackTrace();
 			System.out.println("Gecersiz format");
 		}
 		System.out.println(boyInteger);
